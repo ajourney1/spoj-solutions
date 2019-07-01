@@ -43,6 +43,8 @@ typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_
 const ll maxx = 1e5 + 5;
 ll arr[maxx] , tres[4*maxx] ;
 ll cnt = 0 ;
+
+/// https://www.spoj.com/problems/RPLN/
 void build(ll low , ll high , ll node)
 {
     if(low == high) {
